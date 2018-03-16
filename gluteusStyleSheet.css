@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+html, body {
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: 700;
+	color: #ff6;
+	background-color: #292828;
+	/*padding:0px;*/
+	margin:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width:620px) {
+   /*For mobile phones: */
+  .sprites, .weeks {
+    width:100%;
+	}
+}
+
+.titling {
+	padding:0px;
+}
+p#ellipsis {
+    text-align: center;
+    padding-bottom:4px;
+	font-size: 200%;
+	font-weight: 400;
+	color: #4ee;
+}
+
+.weeks {
+	float:left;
+	width:100%;
+	padding-left:0;
+	padding-top:0;
+	margin:0;
+}
+
+h4 {
+	color: #4ee;
+}
+h4 em {
+	color: #ff6;
+}
+
+.spritebanner {
+	background-color: white;
+	position:absolute;
+	float:left;
+	width:100%;
+	/*margin:2.5%;*/
+	padding:0px;
+	height:100px;
+	top:0;
+}
+
+.spritefight {
+	position:relative;
+	float:left;
+	width:16.6%;
+	height:100%;
+}
+.sprite {
+	width:40%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	display:block;
+	/*padding-right: 5px;*/
+}
+
+.weekpic {
+	height:60px;
+}
+
+.week {
+	color:#4ee;
+	padding-left: 15px;
+}
+
+.subtext {
+	color:#ff6;
+	font-style:italic;
+	padding-left: 30px;
+}
